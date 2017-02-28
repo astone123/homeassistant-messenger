@@ -2,7 +2,7 @@ var webhook = function(req, res) {
     if(req.query['hub.verify_token'])
       setup(req, res);
 
-    console.log(REQUEST: req);
+    console.log("REQUEST:", req);
 }
 
 var setup = function(req, res) {
